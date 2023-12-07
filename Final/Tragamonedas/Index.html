@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Assets/Css/Styles.css">
+	<title>Tragamonedas</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+<!---inicio--->
+<section id="seccionintro">
+<div id="instrucciones">
+<div id="texto" >
+	<h1>Como jugar?</h1>
+	<p>Para realizar una apuesta primero debes colocar tu Nombre y saldo, luego en la parte inferior izquiera de la maquina debes elegir cuanto quieres poner en juego, luego darle al boton "spin" y esperar a ver tus resultados, si logras acertar tres imagenes iguales triplicaras lo apostado, ganaras si consigues duplicar tu saldo.</p>
+</div>
+
+
+
+</div>
+<button id="botonintro">Comenzar</button>
+
+
+<div id="juego">
+
+<!---Div info--->
+
+<div id="info">
+<div id="usuario" class="data"></div>
+<div id="objetivo"></div>
+<div id="saldo" class="data"></div>
+</div>
+
+<!--Div imagenes--->	
+<div class="slots"><img src="Assets/Imagenes/Blanco.png" class="imagenslot"></div>
+<div class="slots"><img src="Assets/Imagenes/Blanco.png" class="imagenslot"></div>
+<div class="slots"><img src="Assets/Imagenes/Blanco.png" class="imagenslot"></div>
+
+<!---Div boton--->
+<div id="spin">
+
+<!---apuesta selec--->
+<div id="cuadradoapu">
+	<div id="cajavalores">
+	<button class="valores">0.5</button>
+	<button class="valores">1</button>
+	<button class="valores">2</button>
+	<button class="valores">5</button>
+
+	</div>
+</div>
+
+<img src="Assets/Imagenes/Spin.png" id="spinner">
+</div>
+</div>
+
+<div id=perdiste>
+<p>Perdiste!</p>
+<button class ="reintentar claseboton">Volver a jugar</button>
+</div>
+
+<div id="ganaste">
+<img src="Assets/Imagenes/win.png" id="finaljuego">
+<button class ="reintentar claseboton">Volver a jugar</button>
+</div>
+
+</section>
+
+<script type="text/javascript" src="Assets/Js/JSscript.js"></script>
+</body>
+</html>
